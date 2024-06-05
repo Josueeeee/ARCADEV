@@ -1,0 +1,22 @@
+---
+import Card from "./Card.astro";
+import SectionContainer from "./SectionContainer.astro";
+---
+
+<div id="home" class="flex flex-col sm:flex-row justify-center items-center p-4">
+  <img src="/img/compu.webp" alt="Imagen de ARCADEV" class="w-96" />
+  <section>
+    <h2 class="text-4xl text-[#005B5B] font-black">ARCADEV</h2>
+    <p class="text-[#005B5B] font-bold">Agencia de Desarrollo Tecnológico</p>
+    <p class="mt-6 font-bold">
+      Empresa dedicada al desarrollo tecnológico, con cobertura nacional en 42
+      rubros comerciales.
+    </p>
+    <button class="bg-[#0AE9E2] px-4 py-2 rounded-full mt-4">Ver Más</button>
+  </section>
+</div>
+<section class="flex flex-col sm:flex-row justify-center items-center gap-3">
+  <Card title="100" body="PROYECTOS EJECUTADOS" />
+  <Card title="8" body="DEPARTAMENTOS DE  HONDURAS" />
+  <Card title="500" body="HORAS DE SOPORTE" />
+</section>
